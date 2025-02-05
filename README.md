@@ -44,5 +44,44 @@ This project involves developing the frontend for a tourism website using either
   - The website looks good on mobile devices.
   - You commit regularly to GitHub to track progress.
 
+## 📤 How to Submit Your Work
+
+### 1. Clone the Repository
+```sh
+ git clone https://github.com/itclub-batu/task-web-frontend-TourismLandingPageDevelopment.git
+```
+
+### 2. Create a New Branch
+```sh
+ git checkout -b your-branch-name
+```
+
+### 3. Create a Folder with Your Name & Seat Number
+```sh
+ mkdir [member_name]_[seat_number]
+ cd [member_name]_[seat_number]
+```
+Example:
+```sh
+ mkdir AhmedAli_2220140
+```
+
+### 4. Add Your Task Files to the Created Folder
+
+### 5. Commit and Push Changes
+```sh
+ git add .
+ git commit -m "Added my task implementation"
+ git push origin your-branch-name
+```
+
+### 6. Create a Pull Request (PR)
+- Go to the original repository on GitHub.
+- Click on **Pull Requests** > **New Pull Request**.
+- Select your branch and create the PR.
+- Add a detailed description of your work.
+
+Your code will be reviewed by the maintainers, and any required modifications will be communicated.
+
 Happy coding! 🚀
 
