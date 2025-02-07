@@ -6,7 +6,7 @@ const Aboutus = () => {
     <div id="about" className="bg-[#eeeeee93] my-6">
       <div className="flex md:flex-row flex-col justify-evenly items-center gap-3">
         <Image alt={"about"} src={"/AboutImg.png"} width={350} height={300} />
-        <div className="w-2/4 ">
+        <div className="md:w-[50%] w-[80%] text-center md:text-left">
           <p className="text-orange font-bold"> ABOUT US</p>
           <h1 className="text-3xl font-bold my-4">
             The Best And Most trusted{" "}
@@ -17,7 +17,10 @@ const Aboutus = () => {
             partners and places spread all over the world by prioriti-zing
             service and customer satisfaction.
           </p>
-          <Link href={"/Servecies"} className="btn w-fit my-6 block">
+          <Link
+            href={"/Servecies"}
+            className="btn w-fit my-6 block m-auto md:m-0"
+          >
             Learn More
           </Link>
           <div className="md:flex justify-between hidden items-center mt-3 text-center">

@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Card from "./Card";
+
 const Filter = ({ setActiveFilter }) => {
   const filters = [
     "All",
@@ -16,13 +18,13 @@ const Filter = ({ setActiveFilter }) => {
   };
 
   return (
-    <div className="text-center p-4 my-[20px] text-[13px] md:text-[16px]">
-      <div className="flex justify-center space-x-8 px-4">
+    <div className="text-center p-4 my-5 text-sm md:text-base">
+      <div className="flex flex-wrap justify-center gap-4 px-4">
         {filters.map((filter) => (
           <div
             key={filter}
             onClick={() => handleFilterClick(filter)}
-            className={`cursor-pointer text-gray-600 relative ${
+            className={`cursor-pointer text-gray-600 relative transition-all duration-300 ease-in-out ${
               activeFilter === filter ? "text-black font-bold" : ""
             }`}
           >
